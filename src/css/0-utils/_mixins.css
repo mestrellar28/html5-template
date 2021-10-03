@@ -1,0 +1,5 @@
+/* Letter spacing */
+@define-mixin letter-spacing $spacing: 0.5rem {
+   letter-spacing: $spacing;
+   margin-right: -$spacing;
+}

@@ -1,0 +1,26 @@
+/* 0-Utils */
+@import './css/0-utils/_fonts';
+@import './css/0-utils/_variables';
+@import './css/0-utils/_mixins';
+@import './css/0-utils/_responsive';
+
+/* 1-Base */
+@import './css/1-base/_reset';
+@import './css/1-base/_basics';
+
+/* 2-Components */
+/* 3-Layout */
+/* 4-Pages */
+/* 5-Themes */
+
+@custom-media --medium-viewport (max-width: 30rem);
+
+$color: #ff54;
+:root {
+   --size: 4rem;
+}
+.title {
+   font-size: var(--size);
+   color: $color;
+   display: grid;
+}
